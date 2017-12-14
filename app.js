@@ -5,10 +5,10 @@ const clearBtn = document.querySelector('.clear-tasks');
 const filter = document.querySelector('#filter');
 const taskInput = document.querySelector('#task');
 
-// Load all event listeners
+// Call to Load all event listeners function
 loadEventListeners();
 
-// Load all event listeners
+// Load all event listeners function
 function loadEventListeners() {
   // DOM Load event
   document.addEventListener('DOMContentLoaded', getTasks);
@@ -52,7 +52,7 @@ function getTasks() {
   });
 }
 
-// Add Task
+// Add Task function
 function addTask(e) {
   if(taskInput.value === '') {
     alert('Add a task');
